@@ -3,13 +3,13 @@
  * Plugin Name:       BuddyPress Greeting Message
  * Plugin URI:        https://wordpress.org/plugins/bp-greeting-message/
  * Description:       Display a Greeting Message on BuddyPress Activity Screen.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            xarbo
  * Author URI:        https://xarbo.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Requires at least: 4.0
- * Tested up to:      4.0
+ * Tested up to:      4.5.3
  *
  * Text Domain:      bp-greeting-message
  * Domain Path:      /lang/
@@ -38,7 +38,7 @@ require_once( 'includes/class-bp-greeting-message-frontend.php' );
  * @return object BP_Greeting_Message
  */
 function BP_Greeting_Message() {
-	$instance = BP_Greeting_Message::instance( __FILE__, '1.0.0' );
+	$instance = BP_Greeting_Message::instance( __FILE__, '1.0.1' );
 
 	if ( is_null( $instance->settings ) ) {
 		$instance->settings = BP_Greeting_Message_Settings::instance( $instance );
@@ -49,4 +49,4 @@ function BP_Greeting_Message() {
 
 BP_Greeting_Message();
 
-new BP_Greeting_Message_Frontend( __FILE__, '1.0.0' );
+new BP_Greeting_Message_Frontend( __FILE__, '1.0.1' );
