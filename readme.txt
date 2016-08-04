@@ -4,7 +4,7 @@ Donate link: http://xarbo.com/
 Tags: buddypress, greeting, message, good morning, good evening, humanized greeting, facebook greeting, day parts, daily_dialogue, time based greeting, time greeting
 Requires at least: 4.0
 Tested up to: 4.5.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,8 +39,12 @@ No, for now it only works with BuddyPress activity screens.
 1. Greeting Message on BuddyPress Sitewide Activity Screen
 2. Greeting Message on BuddyPress Group Activity Screen
 3. Greeting Message on BuddyPress Single Profile Activity Screen
+4. Plugin Settings Screen
 
 == Changelog ==
+
+= 1.0.2 =
+* Added plugin settings screenshot.
 
 = 1.0.1 =
 * Updated the banner and WP compatibility.
