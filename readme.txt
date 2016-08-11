@@ -4,7 +4,7 @@ Donate link: http://xarbo.com/
 Tags: buddypress, greeting, message, good morning, good evening, humanized greeting, facebook greeting, day parts, daily_dialogue, time based greeting, time greeting
 Requires at least: 4.0
 Tested up to: 4.5.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,10 @@ No, for now it only works with BuddyPress activity screens.
 4. Plugin Settings Screen
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed JS error on undefined greeting_time value
+* Resolve Warning: in_array() expects parameter 2 to be array, boolean given
 
 = 1.0.2 =
 * Added plugin settings screenshot.

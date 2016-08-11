@@ -4,6 +4,7 @@
     border: 1px solid #eaeaea;
     padding: 2%;
     margin: 20px 0;
+    box-sizing: initial;
 }
 
 .bpgm-container .bpgm-left {

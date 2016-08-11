@@ -83,7 +83,7 @@ class BP_Greeting_Message_Frontend {
 		$message_html = '';
 		$message_html .= '<div class="bpgm-container">';
 		$message_html .= '<div class="bpgm-left">';
-		$message_html .= '<p class="bpgm-message">&nbsp;</p>';
+		$message_html .= '<p class="bpgm-message"></p>';
 
 		if ( 'on' == $enable_custom_message && ! empty( $custom_message ) ) {
 			$message_html .= '<p class="bpgm-custom-message">' . $custom_message . '</p>';
@@ -107,7 +107,7 @@ class BP_Greeting_Message_Frontend {
 		}
 
 		$greeting  = array();
-		$day_parts = $this->get_option( 'day_parts' );
+		$day_parts = (array) $this->get_option( 'day_parts' );
 
 		if ( in_array( 'morning', $day_parts ) ) {
 			$greeting['morning']['message'] = __( 'Good Morning', 'bp-greeting-message' );
